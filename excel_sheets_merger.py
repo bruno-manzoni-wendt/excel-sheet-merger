@@ -23,7 +23,7 @@ for i, sheet in enumerate(sheet_names, 1):
 
     unpivot_df = unpivot_df.dropna(subset=unpivot_df.columns[2:], how='all') #drop empty rows not checking the first two columns
     unpivot_df['Matéria Prima'] = df.loc[4, 2]
-    list_df.append(unpivot_df) #apprend the treated dataframe to the list
+    list_df.append(unpivot_df) #append the treated dataframe to the list
 
 # %%
 consolidated_df = pd.concat(list_df, ignore_index=True) #concatenate all dataframes into one
