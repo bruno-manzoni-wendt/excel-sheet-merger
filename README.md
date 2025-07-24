@@ -8,8 +8,6 @@ A Python script that consolidates multiple sheets from an Excel workbook into a 
   - Extracts column names and data from specific rows
   - Transposes the data for proper alignment
   - Cleans empty values and standardizes the data format
-  - Adds raw material information
-  - Renames specific columns for consistency
 - Consolidates all processed sheets into a single DataFrame
 - Removes unnecessary columns
 - Exports the consolidated data to a new Excel file
